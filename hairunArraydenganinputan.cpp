@@ -115,4 +115,25 @@ cout<<"\t\t\tTeknik : INPUTAN ARRAY DIMENSI 2\n";
    }
  
    cout<<endl;
+    //cetak matrix R
+ 
+   cout<<"\nMatrik R : \n";;
+ 
+   for(i=0;i<3;i++)
+ 
+   {
+ 
+        for(j=0;j<5;j++)
+ 
+        {
+ 
+        cout<<setw(4)<<R[i][j]<<"|";
+ 
+        }
+ 
+        cout<<endl;
+ 
+   }
+ 
+   cout<<endl;
 }
