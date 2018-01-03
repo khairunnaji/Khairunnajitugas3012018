@@ -94,4 +94,25 @@ cout<<"\t\t\tTeknik : INPUTAN ARRAY DIMENSI 2\n";
         }
  
    }
+    //cetak matrix X
+ 
+   cout<<"\nMatrik x : \n";;
+ 
+   for(i=0;i<3;i++)
+ 
+   {
+ 
+        for(j=0;j<5;j++)
+ 
+        {
+ 
+        cout<<setw(4)<<X[i][j]<<"|";
+ 
+        }
+ 
+        cout<<endl;
+ 
+   }
+ 
+   cout<<endl;
 }
