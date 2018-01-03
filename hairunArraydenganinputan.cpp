@@ -75,4 +75,23 @@ cout<<"\t\t\tTeknik : INPUTAN ARRAY DIMENSI 2\n";
         }
  
    }
+   cout<<"Silahkan input Matrik R*W: \n";
+ 
+   cout<<"------------------------- \n";
+ 
+   for(i=0;i<3;i++)
+ 
+   {
+ 
+        for(j=0;j<5;j++)
+ 
+        {
+ 
+        cout<<"Matrik R*W"<<(i+1)<<","<<(j+1)<<" : ";
+ 
+      cin>>C[i][j];
+ 
+        }
+ 
+   }
 }
