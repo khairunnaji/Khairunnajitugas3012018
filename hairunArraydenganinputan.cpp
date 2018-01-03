@@ -54,4 +54,25 @@ cout<<"\t\t\tTeknik : INPUTAN ARRAY DIMENSI 2\n";
         }
  
    }
+   //masukkan BOBOT W
+ 
+   cout<<"BOBOT W: \n";
+ 
+   cout<<"------------------------- \n";
+ 
+   for(i=0;i<1;i++)
+ 
+   {
+ 
+    for(j=0;j<5;j++)
+ 
+        {
+ 
+        cout<<"BOBOT W "<<(i+1)<<","<<(j+1)<<" : ";
+ 
+      cin>>W[i][j];
+ 
+        }
+ 
+   }
 }
