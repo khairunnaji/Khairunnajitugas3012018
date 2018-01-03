@@ -33,5 +33,25 @@ cout<<"\t\t\tTeknik : INPUTAN ARRAY DIMENSI 2\n";
         }
  
    }
+   //masukkan matrix R
  
+   cout<<"Silahkan input matrik R : \n";
+ 
+   cout<<"------------------------- \n";
+ 
+   for(i=0;i<3;i++)
+ 
+   {
+ 
+        for(j=0;j<5;j++)
+ 
+        {
+ 
+        cout<<"matrik R "<<(i+1)<<","<<(j+1)<<" : ";
+ 
+      cin>>R[i][j];
+ 
+        }
+ 
+   }
 }
